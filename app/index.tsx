@@ -14,6 +14,7 @@ const styles = StyleSheet.create({
 });
 export default function Index() {
   return (
+  <>
     <View
       style={{
         flex: 1,
@@ -22,13 +23,10 @@ export default function Index() {
       }}
     >
       <Text style={styles.bigBlue}>Edit app/index.tsx to edit this screen.</Text>
-      <View
-        style={{
-          width: 100,
-          height: 100,
-          backgroundColor: 'skyblue',
-        }}
-      />
-    </View>
+      </View>
+      <View style={{flex: 1, backgroundColor: 'powderblue'}} />
+      <View style={{flex: 2, backgroundColor: 'skyblue'}} />
+      <View style={{flex: 3, backgroundColor: 'steelblue'}} />
+    </>
   );
 }
