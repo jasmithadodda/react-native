@@ -38,7 +38,7 @@ const App = () => {
           keyExtractor={({id}) => id.toString()}
           renderItem={({item}) => (
             <Text>
-              User ID: {item.userId}, ID: {item.id}, Title: {item.title}, Completed: {item.completed ? 'Yes' : 'No'}
+              {item.title}
             </Text>
           )}
         />
