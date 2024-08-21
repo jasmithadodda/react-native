@@ -2,7 +2,7 @@ import { Text, View, StyleSheet, Image, Button } from "react-native";
 import React from "react";
 import { FlatList } from "react-native-gesture-handler";
 import MyFlatList from "@/components/flatlist";
-import App from "@/components/fetchdata";
+import App1 from "@/components/fetch";
 const styles = StyleSheet.create({
   container: {
     marginTop: 50,
@@ -26,7 +26,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <App/>
+      <App1/>
     </View>
   );
 }
